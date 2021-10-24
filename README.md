@@ -14,6 +14,10 @@
 
 https://github.com/azmiao/pcr_almanac
 
+## 引流博客地址：
+
+https://www.594594.xyz/2021/10/24/pcr_almanac_for_hoshino/
+
 ## 功能
 
 ```
