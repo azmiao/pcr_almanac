@@ -14,9 +14,9 @@
 
 https://github.com/azmiao/pcr_almanac
 
-## 引流博客地址：
+## 更新日志
 
-https://www.594594.xyz/2021/10/24/pcr_almanac_for_hoshino/
+21-12-15    v1.1    修复了宜和忌可能是同一件事的bug
 
 ## 功能
 

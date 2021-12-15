@@ -24,7 +24,9 @@ def get_msg(group_id, user_id):
     suitable_key = random.choice(list(config['suitable'].keys()))
     suitable_value = config['suitable'][suitable_key]
     suitable = suitable_key + '：' + suitable_value
-    unsuitable_key = random.choice(list(config['unsuitable'].keys()))
+    unsuit_list = list(config['unsuitable'].keys())
+    unsuit_list.remove(suitable_key)
+    unsuitable_key = random.choice(unsuit_list)
     unsuitable_value = config['unsuitable'][unsuitable_key]
     unsuitable = unsuitable_key + '：' + unsuitable_value
     prefertime = f'{int(random.random() * 24)}时' + f'{int(random.random() * 60)}分' + f'{int(random.random() * 60)}秒'
