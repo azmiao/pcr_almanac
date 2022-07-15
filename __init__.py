@@ -3,7 +3,7 @@ import shutil
 import os
 from .get_all_info import *
 
-sv = Service('pcr_almanac', bundle='pcr黄历')
+sv = Service('pcr_almanac', help_='[签到] 查询今日PCR黄历', bundle='pcr黄历')
 
 @sv.on_fullmatch('签到')
 async def get_calendar(bot, ev):
